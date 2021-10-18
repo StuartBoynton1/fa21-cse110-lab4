@@ -22,4 +22,35 @@ E - student.courseLoad[0]
 13. :
 A - '32', integers map to their exact string representation
 B - 1, the string is mapped to an integer as integers are needed fro mathematical operations
-C- 
+C - 3, null becomes 0 as an integer
+D - '3null', null becomes 'null' as a string.
+E - 4, true becomes 1 as an int
+F - 0, false and null both become 0 as an integer.
+G - '3undefined', undefined just becomes a string.
+H - NaN, undefined numerically converts to NaN and since the subtract is used everything converts to numbers.
+
+14. :
+A - true, when different types are used javascript converts to numbers and then 2 is greater than 1.
+B - false, two strings are being compared and the first index is compared first, the '1' is less that the '2' therefore '12'<'2'.
+C - true, different types are converted to numbers and then it is the same number being compared.
+D - false, the types are different and therefore are not strictly equal.
+E - false, true is converted to 1 and that is not equal to 2.
+F - true, Boolean(2) is a function that results in true and then true is strictly equal to true.
+
+15. === is a strict comparison where value and type have to be the same. == only requires that value is the same.
+16. part2-question16.js
+17. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
