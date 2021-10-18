@@ -41,6 +41,12 @@ F - true, Boolean(2) is a function that results in true and then true is strictl
 16. part2-question16.js
 17. The function will return [2,4,6]. The for loop goes through each element of the given array [1,2,3] and puts it into the doSomethong function which just doubles the number and returns it. Each of these doubled numbers is pushed into a new array which is then returned at the end.
 18. parts-question18.js
+19. Output,
+1
+4
+3
+2
+
 
 
 
